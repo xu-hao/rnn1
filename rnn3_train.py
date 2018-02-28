@@ -41,7 +41,7 @@ indices_char = dict((i, c) for i, c in enumerate(chars))
 
 batch_size = 128
 seq_len = 64
-step_size = 3
+step_size = utils.step
 # cut the text in semi-redundant sequences of maxlen characters
 seqs = []
 next_chars = []
